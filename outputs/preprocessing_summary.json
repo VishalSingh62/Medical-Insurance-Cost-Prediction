@@ -1,0 +1,64 @@
+{
+  "initial_rows": 1338,
+  "initial_columns": 7,
+  "cleaned_rows": 1335,
+  "cleaned_columns": 7,
+  "duplicates_removed": 3,
+  "total_missing_values": 0,
+  "missing_per_column": {
+    "age": 0,
+    "sex": 0,
+    "bmi": 0,
+    "children": 0,
+    "smoker": 0,
+    "region": 0,
+    "charges": 0
+  },
+  "column_data_types": {
+    "age": "int64",
+    "sex": "object",
+    "bmi": "float64",
+    "children": "int64",
+    "smoker": "object",
+    "region": "object",
+    "charges": "float64"
+  },
+  "outliers_iqr_analysis": {
+    "age": {
+      "q1": 27.0,
+      "q3": 51.0,
+      "iqr": 24.0,
+      "lower_bound": -9.0,
+      "upper_bound": 87.0,
+      "outlier_count": 0,
+      "outlier_percentage": 0.0
+    },
+    "bmi": {
+      "q1": 26.25,
+      "q3": 34.69,
+      "iqr": 8.43,
+      "lower_bound": 13.61,
+      "upper_bound": 47.34,
+      "outlier_count": 9,
+      "outlier_percentage": 0.67
+    },
+    "children": {
+      "q1": 0.0,
+      "q3": 2.0,
+      "iqr": 2.0,
+      "lower_bound": -3.0,
+      "upper_bound": 5.0,
+      "outlier_count": 0,
+      "outlier_percentage": 0.0
+    },
+    "charges": {
+      "q1": 4746.7,
+      "q3": 16717.01,
+      "iqr": 11970.31,
+      "lower_bound": -13208.77,
+      "upper_bound": 34672.48,
+      "outlier_count": 137,
+      "outlier_percentage": 10.26
+    }
+  }
+}

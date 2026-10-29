@@ -1,0 +1,8 @@
+{
+  "key": "random_forest",
+  "algorithm": "Random Forest Regressor",
+  "selection_criterion": "Highest Test R\u00b2 with lowest RMSE/MAE",
+  "test_r2": 0.8886,
+  "test_rmse": 4445.15,
+  "test_mae": 2374.09
+}

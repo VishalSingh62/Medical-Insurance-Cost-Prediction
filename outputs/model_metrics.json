@@ -1,0 +1,53 @@
+{
+  "models": {
+    "linear_regression": {
+      "model_name": "Linear Regression",
+      "train_r2": 0.7405,
+      "test_r2": 0.7803,
+      "test_mae": 4403.74,
+      "test_rmse": 6243.28,
+      "test_mape_percent": 42.13,
+      "sample_count_train": 1068,
+      "sample_count_test": 267
+    },
+    "random_forest": {
+      "model_name": "Random Forest Regressor",
+      "train_r2": 0.9005,
+      "test_r2": 0.8886,
+      "test_mae": 2374.09,
+      "test_rmse": 4445.15,
+      "test_mape_percent": 27.44,
+      "sample_count_train": 1068,
+      "sample_count_test": 267
+    }
+  },
+  "comparison": [
+    {
+      "model_key": "random_forest",
+      "algorithm": "Random Forest Regressor",
+      "test_r2": 0.8886,
+      "train_r2": 0.9005,
+      "test_mae": 2374.09,
+      "test_rmse": 4445.15,
+      "test_mape_pct": 27.44
+    },
+    {
+      "model_key": "linear_regression",
+      "algorithm": "Linear Regression",
+      "test_r2": 0.7803,
+      "train_r2": 0.7405,
+      "test_mae": 4403.74,
+      "test_rmse": 6243.28,
+      "test_mape_pct": 42.13
+    }
+  ],
+  "best_model": {
+    "key": "random_forest",
+    "algorithm": "Random Forest Regressor",
+    "selection_criterion": "Highest Test R\u00b2 with lowest RMSE/MAE",
+    "test_r2": 0.8886,
+    "test_rmse": 4445.15,
+    "test_mae": 2374.09
+  },
+  "metric_methodology_note": "Continuous regression evaluation strictly utilizes R\u00b2 (variance explained), MAE (dollar deviation), and RMSE (penalized large errors). Classification metrics like Accuracy, Precision, Recall, and F1-score are mathematically inapplicable."
+}

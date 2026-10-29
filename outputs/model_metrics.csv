@@ -1,0 +1,3 @@
+model_key,algorithm,test_r2,train_r2,test_mae,test_rmse,test_mape_pct
+random_forest,Random Forest Regressor,0.8886,0.9005,2374.09,4445.15,27.44
+linear_regression,Linear Regression,0.7803,0.7405,4403.74,6243.28,42.13
